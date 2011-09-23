@@ -36,7 +36,7 @@ BuildRequires:  rubygem-yard >= 0
 Url:            http://www.opensuse.org
 Source:         %{mod_name}-%{version}.gem
 #
-Summary:        polkit bindings for ruby
+Summary:        Polkit bindings for ruby
 %description
 This extension provides polkit integration. The library provides a stable API for applications to use the authorization policies from polkit.
 
