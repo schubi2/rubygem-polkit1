@@ -64,6 +64,7 @@ Test::Unit or RSpec files, useful for developers.
 %install
 %gem_install %{S:0}
 %gem_cleanup
+rm %{buildroot}/%{_libdir}/ruby/gems/%{rb_ver}/gems/%{mod_name}-%{version}/ext/polkit1/polkit1.c
 
 %check
 cd %{buildroot}/%{_libdir}/ruby/gems/%{rb_ver}/gems/%{mod_name}-%{version}
